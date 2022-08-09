@@ -44,9 +44,12 @@
 	right:4rem;
 	}
 
-	h1{
-		top: 36%;
-		left: 26%;
+	h1{	
+	padding-top: 45%;
+	padding-left: 23%;
+	font-size: 10vw;
+	line-height: 12vw;
+
 		text-shadow: 0 0 1rem #fff,0 0 1rem #fff,0 0 1rem #fff,0 0 1rem #fff;
 	}
 	.inner{
