@@ -323,24 +323,27 @@ h1{
 #items_grid{
 	display: grid;
 	width: 100%;
-	grid-template-columns: repeat(auto-fit, minmax(30vh,1fr));
+	height: auto;
+	grid-template-columns: repeat(auto-fit, minmax(25%,1fr));
 	gap: 7%;
 }
 .item{
+	height: auto;
 	text-align: center;
 }
 .item_img{
-	width: 30vh;
-	height: 30vh;
+	width: 25vh;
+	height: 25vh;
 	margin: 0 auto;
 	transition: transform .6s ease;
 }
 .item_bg{
 	margin: 0 auto;
-	width: 30vh;
-	height: 30vh;
+	width: 25vh;
+	height: 25vh;
 	overflow: hidden;
 }
+
 .item_bg:hover .item_img{
 	transform: scale(1.1);
 }
