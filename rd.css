@@ -1,0 +1,97 @@
+@media(max-width: 1024px){
+
+	html{
+		font-size: 60%;
+	}
+	#shops img{
+		width: 80%;
+	}
+	#sapporo{
+	right: 38%;
+	}
+	#tokyo{
+	top: 69.5%;
+	left: 66%;
+	}
+	#osaka{
+		right: 54%;
+	}
+
+	#fukuoka{
+	right: 76.5%;
+	}
+
+}
+
+
+
+@media(max-width: 768px){
+
+	html{
+		font-size: 55%;
+	}
+	.bgimg-slider {
+    background: no-repeat 80% center/cover;
+   }
+
+   #nav{
+   	display: none;
+   }
+   .hb{
+   	display: block;
+   }
+   #sns{
+	right:4rem;
+	}
+
+	h1{
+		top: 36%;
+		left: 26%;
+		text-shadow: 0 0 1rem #fff,0 0 1rem #fff,0 0 1rem #fff,0 0 1rem #fff;
+	}
+	.inner{
+		text-align: center;
+		padding: 5% 3%;
+	}
+	#about .inner{
+		display: block;
+	}
+	#about_photo{
+		display: block;
+		margin: 0 auto;
+		width: 60vw;
+		height: 60vw;
+	}
+	#items_grid{
+		grid-template-columns: repeat(auto-fit, minmax(20vh,1fr));
+		gap: 3%;
+	}
+	.item_img{
+	width: 20vh;
+	height: 20vh;
+	}
+	.item_bg{
+	width: 20vh;
+	height: 20vh;
+	}
+
+	#flex{
+	display: block;
+	}
+	footer{
+		text-align: center;
+		padding: 5% 3%;
+	}
+	footer img{
+	margin-bottom:3rem;
+	}
+	footer nav a:first-child{
+		margin-left: 0;
+	}
+	footer nav a{
+		font-size: 2rem;
+	}
+	footer nav{
+		margin-bottom: 3rem;
+	}
+}
