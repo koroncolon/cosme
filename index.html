@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="KTは、毎日を少しだけ鮮やかにするコスメブランドです。">
+	<meta name="keywords" content="コスメ,メイク">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>KT｜毎日をカラフルに。</title>
+ 	<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+	<link rel="stylesheet" href="rd.css">
+	<meta name="robots" content="noindex , nofollow" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+
+<body>
+	<div id="top"></div>
+
+	<div id="shadow"></div>
+    <header>
+    	<div id="logo">
+    		<img src="logo.png" alt="KT">
+    	</div>
+    	<div id="nav">
+    		<nav>
+    		<a class="underline" href="#about">about</a>
+    		<a class="underline" href="#items">items</a>
+    		<a class="underline" href="#shops">shops</a>
+    		</nav>
+    	</div>
+    	<div id="sns">
+    		<a href="#"><img src="twitter.png" alt="twitter"></a>
+    		<a href="#"><img src="instagram.png" alt="instagram"></a>
+    	</div>
+
+    	<div class="hb"> 
+		  <div class="hb-icon">
+	        <span class="hb-line"></span>
+	      </div>
+	      <nav class="hb-nav">
+	        <ul>
+	          <li><a class="underline" href="#about">about</a></li>
+	          <li><a class="underline" href="#items">items</a></li>
+	          <li><a class="underline" href="#shops">shops</a></li>
+	        </ul>
+	      </nav>
+    	</div>
+    </header>
+
+
+    <main class="bgimg-slider">
+    	<h1 class="slider-title">毎日を<br>カラフルに。</h1>
+    	<script>
+		jQuery(function($) {
+		　$('.bgimg-slider').bgSwitcher({
+		　　images: ['main1.jpg','main2.png','main3.jpg'],
+		　　easing: "linear"
+		　});
+		});
+		</script>
+    </main>
+
+    <div id="top_btn">
+    	<a href="#top"><img src="top.png" src="↑"></a>
+    </div>
+
+    <div id="about" class="fadein">
+    	<div class="inner">
+	    	<div id="text1">
+		    	<h2>about</h2>
+		    	<p>何気ない毎日が<br>
+		    	メイクでちょっとだけ色鮮やかに。</p>
+		    	<p>KTはそんなきっかけになりたいと考えています。</p>
+	    	</div>
+	    	<div id="about_photo"></div>
+    	</div>
+    </div>
+
+    <div id="items" class="fadein">
+    	<div class="inner">
+    		<h2>items</h2>
+    		<div id="items_grid">
+	    		<div class="item"><a href="#">
+					<div class="item_bg">
+						<div class="item_img" id="basemake"></div>
+					</div>
+    				<p>basemake</p>
+    			</a></div>
+    			<div class="item"><a href="#">
+    				<div class="item_bg">
+	    				<div class="item_img" id="eyeshadow"></div>
+	    			</div>
+    				<p>eyeshadow</p>
+    			</a></div>
+    			<div class="item"><a href="#">
+    				<div class="item_bg">
+	    				<div class="item_img" id="mascara"></div>
+	    			</div>
+    				<p>mascara</p>
+    			</a></div>
+    			<div class="item"><a href="#">
+    				<div class="item_bg">
+	    				<div class="item_img" id="cheek"></div>
+	    			</div>
+    				<p>cheek</p>
+    			</a></div>
+    			<div class="item"><a href="#">
+    				<div class="item_bg">
+	    				<div class="item_img" id="lip"></div>
+	    			</div>
+    				<p>lip</p>
+    			</a></div>
+    			<div class="item"><a href="#">
+    				<div class="item_bg">
+	    				<div class="item_img" id="others"></div>
+	    			</div>
+    				<p>others</p>
+    			</a></div>
+    		</div>
+
+    		<div class="linkpage">
+    			<a class="underline"href="#">すべてのアイテムを見る　≫</a>
+    		</div>
+    	</div>
+    </div>
+
+
+    <div id="shops" class="fadein">
+    	<div class="inner">
+    		<h2>shops</h2>
+    		<div id="japanmap">
+    			<img src="japan.png" alt="日本地図">
+	    		<div id="sapporo">
+	    			<a class="underline" href="#">Sapporo</a>
+	    		</div>
+	    		<div id="tokyo">
+	    			<a class="underline" href="#">Tokyo</a>
+	    		</div>
+	    		<div id="osaka">
+	    			<a class="underline" href="#">Osaka</a>
+	    		</div>
+	    		<div id="fukuoka">
+	    			<a class="underline" href="#">Fukuoka</a>
+	    		</div>
+	    	</div>
+
+	    	<div class="linkpage">
+    			<a class="underline" href="#">お取り扱い店舗一覧　≫</a>
+    		</div>
+
+    	</div>
+    </div>
+
+    <footer>
+    	<div id="flex">
+	    	<img src="logo.png" alt="KT">
+	    	<nav>
+	    		<a class="underline" href="#">会社概要</a>
+	    		<a class="underline" href="#">プライバシーポリシー</a>
+	    		<a class="underline" href="#">お問い合わせ</a>
+	    	</nav>
+    	</div>
+    	<small>&copy;KT cosmetics. All Rights Reserved.</small>
+    </footer>
+
+    <script src="jquery.bgswitcher.js"></script>
+    <script src="jq.js"></script>
+</body>
+
+
+</html>
