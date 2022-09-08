@@ -505,23 +505,28 @@ h3{
 	width: 30%;
 	text-align: center;
 }
+.item_goods a{
+	display:inline-block;
+	width: 100%;
+}
 .item_goods p{
 	margin-top: 3rem;
 	margin-bottom: 1rem;
 }
 
 .item_img{
-	width: 15vw;
-	height: 15vw;
+	width: 100%;
+	max-width: 20vw;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .item_img img{
-	max-height: 80%;
-	max-width: 15vw;
+	display: inline-block;
+	max-height: 100%;
+	max-width: 20vw;
+	text-align: center;
 }
-
 /* ========================================
    下層ページ　items ファンデーション
 ========================================= */
