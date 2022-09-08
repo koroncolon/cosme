@@ -104,9 +104,11 @@
 	
 	
 	.shops_about{
-		justify-content: space-around;
+		justify-content: center;
 	}
+	.shops_about img{
+		margin-right:2rem
 	.shopdetail{
-		margin-left: 0;
+		margin-left: 2rem;
 	}
 }
