@@ -102,13 +102,22 @@
 		margin-bottom: 3rem;
 	}
 	
+	.item_about{
+		padding: 2%;
+	}
+	#mainImg{
+		width: 100%;
+	}
+	#subImg{
+		width: 100%;
+	}
 	
 	.shops_about{
 		justify-content: center;
 	}
 	.shops_about img{
-		margin-right:2rem
+		margin-right:1rem
 	.shopdetail{
-		margin-left: 2rem;
+		margin-left: 1rem;
 	}
 }
