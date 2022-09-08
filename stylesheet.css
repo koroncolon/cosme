@@ -53,14 +53,14 @@ a:focus {outline:none;}
 ========================================= */
 html{
 	font-size: 62.5%; /* =10px=1rem */
-	scroll-behavior: smooth;}
-
-#x_hidden{
-	width:100vw;
-	position:relative;
-	overflow-x : hidden;
+	scroll-behavior: smooth;
 }
 
+#x_hidden{
+	width:100%;
+	position:relative;
+	overflow-x: hidden;
+}
 
 body {
 	background-color: #feffff;
@@ -254,6 +254,7 @@ header{
 	background-color: rgba(0, 0, 0, 0.7);
 }
 #shadow.open{
+	z-index: 10;
 	display: block;
 }
 /* ========================================
@@ -265,7 +266,6 @@ header{
     min-height: 60rem;
     background: no-repeat right center/cover;
    }
-
 h1{	
 	padding-top: 15%;
 	padding-left:10%;
@@ -299,7 +299,7 @@ h1{
 	margin-top: 12rem;
 	height: auto;
 	min-height: 58rem;
-	background: url(about_bg.png) no-repeat left center/contain;
+	background: url(top/about_bg.png) no-repeat left center/contain;
 }
 #about .inner{
 	display: flex;
@@ -308,7 +308,7 @@ h1{
 #about_photo{
 	width: 35vw;
 	height: 35vw;
-	background: url(about.jpg)  no-repeat center/130%;
+	background: url(top/about.jpg)  no-repeat center/130%;
 }
 
 /* ========================================
@@ -318,7 +318,7 @@ h1{
 	width: 100%;
 	height: auto;
 	margin-top: 8rem;
-	background: url(items_bg.png) no-repeat right center/contain;
+	background: url(top/items_bg.png) no-repeat right center/contain;
 }
 #items_grid{
 	display: grid;
@@ -343,7 +343,6 @@ h1{
 	height: 25vh;
 	overflow: hidden;
 }
-
 .item_bg:hover .item_img{
 	transform: scale(1.1);
 }
@@ -353,22 +352,22 @@ h1{
 	margin-top: 1rem;
 }
 #basemake{
-	background: url(basemake.jpg) no-repeat left center/140%;
+	background: url(top/basemake.jpg) no-repeat left center/140%;
+}
+#eyebrow{
+	background: url(top/eyebrow.jpg) no-repeat right 5% top 10%/200%;
 }
 #eyeshadow{
-	background: url(eyeshadow.jpg) no-repeat center/cover;
+	background: url(top/eyeshadow.jpg) no-repeat center/cover;
 }
 #mascara{
-	background: url(mascara.jpg) no-repeat center right/cover;
+	background: url(top/mascara.jpg) no-repeat center right/cover;
 }
 #cheek{
-	background: url(cheek.jpg) no-repeat left top 45%/240%;
+	background: url(top/cheek.jpg) no-repeat left top 45%/240%;
 }
 #lip{
-	background: url(lip.jpg) no-repeat left top/120%;
-}
-#others{
-	background: url(others.jpg) no-repeat center bottom 10%/cover;
+	background: url(top/lip.jpg) no-repeat left top/120%;
 }
 
 .linkpage{
@@ -384,7 +383,7 @@ h1{
 ========================================= */
 #shops{
 	margin-top: 8rem;
-	background: url(shops_bg.png) no-repeat left center/contain;
+	background: url(top/shops_bg.png) no-repeat left center/contain;
 }
 #japanmap{
 	width: 100%;
@@ -441,4 +440,159 @@ footer img{
 }
 footer nav a{
 	margin-left: 3rem;
+}
+
+
+/* ========================================
+   下層ページ
+========================================= */
+#pan{
+	padding: 2% 10%;
+	text-align: left;
+}
+#pan a{
+	border-bottom: 0.1rem solid #4e5352;
+}
+#pan p{
+	display: inline;
+	font-weight: bold;
+}
+/* ========================================
+   下層ページ　items
+========================================= */
+#bottom{
+	border-bottom: 0.1rem solid #4e5352;
+}
+
+#items_page{
+	width: 100%;
+	height: auto;
+}
+#items_page .inner{
+	padding: 0 10% 5% 10%;
+}
+#items_page h2{
+	text-align: center;
+	margin: 0 0 5.6rem 0;
+}
+h3{
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+}
+
+.item_inner{
+	margin-top: 10rem;
+}
+.item_genre{
+	margin-bottom: 5rem;
+}
+.item_genre:last-child{
+	margin-bottom: 0;
+}
+
+.item_box{
+	display:flex;
+	justify-content: space-around;
+	width: 100%;
+	padding: 5%;
+	border: 0.3rem solid #f4efdd;
+}
+.item_box:last-child{
+	margin-bottom: 0;
+}
+
+.item_goods{
+	width: 30%;
+	text-align: center;
+}
+.item_goods p{
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+}
+
+.item_img{
+	width: 15vw;
+	height: 15vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.item_img img{
+	max-height: 80%;
+	max-width: 15vw;
+}
+
+/* ========================================
+   下層ページ　items ファンデーション
+========================================= */
+.item_about{
+	border: 0.3rem solid #f4efdd;
+	padding: 8%;
+	text-align: center;
+	margin-top: 5rem;
+}
+.item_about p:last-child{
+	margin-bottom: 0;
+}
+#item_title{
+	font-size: 1.8rem;
+	font-weight: bold;
+	margin-top: 5rem;
+}
+#mainImg{
+	margin: 0 auto;
+	width: 70%;
+}
+#mainImg img{
+	width: 100%;
+}
+#subImg{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 70%;
+	margin: 0 auto;
+}
+#subImg li{
+	width: 25%;
+	padding: 0.5% 0.5% 0 0.5%;
+}
+#subImg li:hover{
+	cursor: pointer;
+}
+#subImg img{
+	width: 100%;
+}
+#subImg .current{
+	border: 0.2rem solid orange ;
+}
+
+/* ========================================
+   下層ページ　shops
+========================================= */
+#shops_page h2{
+	text-align: center;
+	margin: 0 0 5.6rem 0;
+}
+.shops_about{
+	margin-bottom: 5rem;
+	padding: 5% 10%;
+	display: flex;
+	align-items: center;
+	border: 0.3rem solid #E4F4DD;
+}
+.shops_about:last-child{
+	margin-bottom: 0;
+}
+.shops_about img{
+	width: 40%;
+}
+.shopdetail{
+	text-align: left;
+	margin-left: 10rem;
+}
+.shopdetail h4{
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 3rem;
 }
