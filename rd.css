@@ -4,9 +4,6 @@
 		font-size: 60%;
 	}
 	
-	#items .linkpage{
-	margin-top: 10rem;
-	}
 	
 	#shops img{
 		width: 80%;
@@ -71,16 +68,19 @@
 		height: 60vw;
 	}
 	#items_grid{
-		grid-template-columns: repeat(auto-fit, minmax(30%,1fr));
+		grid-template-columns: repeat(auto-fit,minmax(30%,1fr));
+		gap: 3%;
 	}
+
 	.item_img{
-	width: 20vh;
-	height: 20vh;
+		width: 15vh;
+		height: 15vh;
 	}
 	.item_bg{
-	width: 20vh;
-	height: 20vh;
+		width: 15vh;
+		height: 15vh;
 	}
+
 	
 	#flex{
 	display: block;
